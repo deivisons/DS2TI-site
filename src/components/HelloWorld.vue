@@ -10,10 +10,10 @@ export default {
   name: "HelloWorld",
   data() {
     return {
-      msg: "DS2TI - soluções"
-    };
+      msg: 'DS2TI - soluções'
+    }
   }
-};
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
