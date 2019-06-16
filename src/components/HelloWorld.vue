@@ -4,7 +4,6 @@
     <h2>Site em construção</h2>
     <a href="#">
       <img src="../assets/logo.png"></img>
-
     </a>
     
   </div>
