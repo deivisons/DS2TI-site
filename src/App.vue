@@ -25,9 +25,7 @@
 
     <header role="banner">
       <div class="container">
-        
         <div class="col-md-4 col-sm-4 col-xs-12 header-fabify padding-top-25">
-       
           <a class="navbar-brand" href="#">
             DS2TI
             <p class="site-description">Soluções inteligentes</p>
@@ -105,7 +103,7 @@
                     <li id=" menu-item-2 " class="menu-item menu-item-2">
                       <a href="#">About</a>
                     </li>
-                    <li id=" menu-item-46 " class="menu-item menu-item-46 dropdown">
+                    <!-- <li id=" menu-item-46 " class="menu-item menu-item-46 dropdown">
                       <a href="#">
                         Parent Page
                         <i class="caret"></i>
@@ -115,7 +113,7 @@
                           <a href="#">Sub-page</a>
                         </li>
                       </ul>
-                    </li>
+                    </li>-->
                   </ul>
                 </div>
               </div>
@@ -154,7 +152,6 @@
         <div class="container">
           <div class="row padding-top-60 padding-bottom-60">
             <div id="app">
-             
               <router-view/>
             </div>
 
@@ -163,9 +160,9 @@
               <article
                 id="post-19"
                 class="post-19 post type-post status-publish format-standard hentry category-uncategorized tag-boat tag-lake"
-              > -->
-                <!-- <a href="#" class="post-thumbnail"></a> -->
-                <!-- <footer class="entry-footer">
+            >-->
+            <!-- <a href="#" class="post-thumbnail"></a> -->
+            <!-- <footer class="entry-footer">
                   <span class="byline">
                     <span class="author vcard">
                       <a class="url fn n" href="#">
@@ -187,20 +184,20 @@
                     <a href="#" rel="tag">boat</a>,
                     <a href="#" rel="tag">lake</a>
                   </span>
-                </footer> -->
-                <!-- .entry-footer -->
-              
-               <!--  <header class="entry-header">
+            </footer>-->
+            <!-- .entry-footer -->
+
+            <!--  <header class="entry-header">
                   <h2 class="entry-title">
                     <a href="#" rel="bookmark">
                       Worth A Thousand
                       Words
                     </a>
                   </h2>
-                </header> -->
-                <!-- .entry-header -->
+            </header>-->
+            <!-- .entry-header -->
 
-                <!-- <div class="entry-content">
+            <!-- <div class="entry-content">
                   <figure style="width: 435px" class="wp-caption alignnone">
                     <img
                       class="wp-image-59"
@@ -212,12 +209,12 @@
                     <figcaption class="wp-caption-text">Boat</figcaption>
                   </figure>
                   <p>Boat.</p>
-                </div> -->
-                <!-- .entry-content -->
-              <!-- </article> -->
+            </div>-->
+            <!-- .entry-content -->
+            <!-- </article> -->
 
-              <!-- <div class="paginations"></div>
-            </div> -->
+            <!-- <div class="paginations"></div>
+            </div>-->
             <!--/End of Blog Detail-->
           </div>
         </div>
@@ -238,7 +235,7 @@
         <div class="container">
           <div class="row padding-top-20 padding-bottom-10">
             <div class="col-md-6 text-left">
-              <p class="copyright">Your Copyright Text</p>
+              <p class="copyright">DS2TI - soluções inteligentes.</p>
             </div>
             <div class="col-md-6">
               <ul class="payment-icon"></ul>
