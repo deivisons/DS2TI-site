@@ -1,6 +1,8 @@
 <template>
-  <div id="page" class="site">
-    <a class="skip-link screen-reader-text" href="#">Skip to content</a>
+  <div
+    id="page"
+    class="site"
+  >
 
     <section class="header-top-info-1">
       <div class="container">
@@ -25,17 +27,24 @@
 
     <header role="banner">
       <div class="container">
-        <div class="col-md-4 col-sm-4 col-xs-12 header-fabify padding-top-25">
-          <a class="navbar-brand" href="#">
+        <div class="col-md-4 col-sm-4 col-xs-12 dss-header padding-top-25">
+          <a
+            class="navbar-brand"
+            href="#"
+          >
             DS2TI
             <p class="site-description">Soluções inteligentes</p>
           </a>
         </div>
 
-        <div class="col-md-8 col-sm-8 col-xs-12 header-fabify padding-top-25">
+        <div class="col-md-8 col-sm-8 col-xs-12 dss-header padding-top-25">
           <ul class="search-cart text-right">
             <li>
-              <form class="searchbox" action="#" method="get">
+              <form
+                class="searchbox"
+                action="#"
+                method="get"
+              >
                 <input
                   type="search"
                   name="s"
@@ -45,7 +54,11 @@
                   onkeyup="buttonUp();"
                   required
                 >
-                <input type="submit" class="searchbox-submit" value>
+                <input
+                  type="submit"
+                  class="searchbox-submit"
+                  value
+                >
                 <span class="searchbox-icon">
                   <i class="fa fa-search"></i>
                 </span>
@@ -53,7 +66,7 @@
             </li>
 
             <!-- <li>
-              <div class="fabify-cart">
+              <div class="dss-cart">
                 <a href class="cart-icon">
                   <i class="fa fa-cart-plus"></i>
                   <span class="count">0</span>
@@ -61,7 +74,7 @@
               </div>
             </li>-->
             <!-- <li>
-              <div class="fabify-button">
+              <div class="dss-button">
                 <a href>
                   <i class="fa fa-clock-o"></i> Book Now
                 </a>
@@ -73,9 +86,21 @@
     </header>
 
     <div class="container">
-      <div id="sticky-wrapper" class="sticky-wrapper" style="height: 69px;">
-        <div id="sticky-wrapper" class="sticky-wrapper" style="height: 69px;">
-          <nav class="navbar navbar-default nav-fabify sticky-nav" role="navigation" style>
+      <div
+        id="sticky-wrapper"
+        class="sticky-wrapper"
+        style="height: 69px;"
+      >
+        <div
+          id="sticky-wrapper"
+          class="sticky-wrapper"
+          style="height: 69px;"
+        >
+          <nav
+            class="navbar navbar-default dss-nav sticky-nav"
+            role="navigation"
+            style
+          >
             <div class="container">
               <!-- Mobile Display -->
               <div class="navbar-header">
@@ -94,13 +119,25 @@
               <!-- /Mobile Display -->
 
               <!-- Menu Toggle -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <div id class>
+              <div
+                class="collapse navbar-collapse"
+                id="bs-example-navbar-collapse-1"
+              >
+                <div
+                  id
+                  class
+                >
                   <ul class="nav navbar-nav navbar-right">
                     <li class="current-menu-item active">
-                      <a href="#" title="Home">Home</a>
+                      <a
+                        href="#"
+                        title="Home"
+                      >Home</a>
                     </li>
-                    <li id=" menu-item-2 " class="menu-item menu-item-2">
+                    <li
+                      id=" menu-item-2 "
+                      class="menu-item menu-item-2"
+                    >
                       <a href="#">About</a>
                     </li>
                     <!-- <li id=" menu-item-46 " class="menu-item menu-item-46 dropdown">
@@ -124,8 +161,12 @@
       </div>
     </div>
     <div class="clearfix"></div>
-    <div id="content" class="site-content" role="main">
-      <section class="breadcrumb fabify">
+    <div
+      id="content"
+      class="site-content"
+      role="main"
+    >
+      <section class="breadcrumb dss">
         <div class="background-overlay">
           <div class="container">
             <div class="row padding-top-60 padding-bottom-30">
@@ -152,7 +193,7 @@
         <div class="container">
           <div class="row padding-top-60 padding-bottom-60">
             <div id="app">
-              <router-view/>
+              <router-view />
             </div>
 
             <!--Blog Detail-->
@@ -247,7 +288,10 @@
       <!--======================================
       Top Scroller
       ========================================-->
-      <a href="#" class="top-scroll">
+      <a
+        href="#"
+        class="top-scroll"
+      >
         <i class="fa fa-arrow-circle-o-up"></i>
       </a>
     </div>
@@ -256,8 +300,8 @@
 
 <script>
 export default {
-  name: "App"
-};
+  name: 'App'
+}
 </script>
 
 <style>
