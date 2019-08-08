@@ -3,7 +3,7 @@
     <h1>{{ msg }}</h1>
     <h2>Site em construção</h2>
     <a href="#">
-       <img src="../assets/logo.png"></img> 
+      <img src="../assets/logo.png" />
     </a>
   </div>
 </template>
@@ -21,5 +21,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 </style>
